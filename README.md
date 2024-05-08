@@ -19,3 +19,29 @@
 | POST   | /places/:id/rant        | Create a rant (comment) about a place          |
 | DELETE | /places/:id/rant/:rantid| Delete a rant (comment) about a place          |
 | GET    | *                       | 404 page (matches any route not defined above) |
+
+
+
+## Database
+
+**places** 
+
+| Field | Type |
+| ---------- | ------------ |
+| _id | Object ID |
+| name | String |
+| city | String |
+| state | String |
+| cuisines | String |
+| pic | String |
+
+**rants**
+
+| Field | Type |
+| ---------- | ------------ |
+| _id | Object ID |
+| place_id | ref(places) Object_Id |
+| rant | Boolean |
+| rating | Number |
+| comment | String |
+| reviewer | String |
