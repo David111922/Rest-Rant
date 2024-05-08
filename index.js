@@ -1,4 +1,4 @@
-require('dotenv') .config()
+require('dotenv').config()
 const express = require('express')
 const app = express()
 
@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('*', (req, res) => {
-  res.render('error 404')
+  res.status(404).render('error404') 
 })
 
 app.listen(process.env.PORT)
