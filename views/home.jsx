@@ -5,7 +5,8 @@ function home() {
   return (
     <Def>
       <main>
-        <h1>HOME</h1>
+        <h1>Rest-Rant</h1>
+        <a href="/places/index.jsx"></a>
         <div>
           <img src="images/wine-cheese.jpg"/>
           <div>
