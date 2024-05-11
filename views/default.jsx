@@ -10,8 +10,8 @@ function Def (html) {
                 <link rel="stylesheet" href="/css/style.css" />
             </head>
             <body>
-                <h1>conyo</h1>
                 {html.children}
+                <h1>coño</h1>
             </body>
         </html>
     )
