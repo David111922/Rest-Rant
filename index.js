@@ -1,5 +1,15 @@
 /// Modules and Globals
 require('dotenv').config()
+const mongoose = require('mongoose')
+
+// mongoose.connect(process.env.MONGO_URI, {
+//   useNewUrlParser: true, 
+//   useUnifiedTopology: true
+// })
+
+// module.exports.Place
+//  = require('./places')
+
 const express = require('express')
 const methodOverride = require('method-override')
 

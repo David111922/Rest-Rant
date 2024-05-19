@@ -32,7 +32,7 @@ function Def(html) {
 
 
         {html.children}
-        <h1>coño</h1>
+        <h1>Que Rico</h1>
       </body>
     </html>
   );
