@@ -1,6 +1,6 @@
 const router = require('express').Router()
 const db = require('../models')
-
+//!issue with id pushing a string to mongo I believe
 router.get('/', (req, res) => {
     db.Place.find()
     .then((places) => {
