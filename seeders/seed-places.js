@@ -12,18 +12,14 @@ db.Place.create([{
     city: 'Phoenix',
     state: 'AZ',
     cuisines: 'Coffee, Bakery',
-    pic: '/images/coffee-cat.jpg',
+    pic: '/public/images/pizza.jpg',
     founded: 2020
 }])
-.then (()=> {})
-console.log('Successful!')
-process.exit()
-
-.catch(err => {})
-console.log("Failure!, err")
-process.exit()
-
-
-
-
-// !just added this activity 8 .8
+.then(() => {
+    console.log('Success!')
+    process.exit()
+})
+.catch(err => {
+    console.log('Failure!', err)
+    process.exit()
+})
