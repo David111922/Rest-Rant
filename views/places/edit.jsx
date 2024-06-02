@@ -77,7 +77,7 @@ function edit_form({ place, id }) {
             />
           </div>
         </div>
-        <input classNamet="btn btn-primary" type="submit" value="Update Place" />
+        <input className="btn btn-primary" type="submit" value="Update Place" />
       </form>
     </main>
     </Def >
